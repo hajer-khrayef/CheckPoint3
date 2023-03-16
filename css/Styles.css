@@ -1,6 +1,7 @@
 li{
     display: inline;
 }
+
 nav{
     font-family:  roboto;
 
@@ -10,3 +11,49 @@ nav{
 .anc{
     text-decoration: none;
 }
+/*
+cad kol element eli margin w padding mta3hom par defaut ybadelhomlek 0
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color :blue !important 
+}
+.icon{
+    font-size: 50px;
+         color:black;
+         margin:10px 20px /*c à d top and buttom 10px and right and left 20px;
+         /*margin:10px 30px 40px 20px read sens of watch top=10 than right=30 than buttom=40 than left=20*/
+    
+ }
+.icon:hover{
+   font-size: 50px;
+        color: blue;
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
